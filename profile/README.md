@@ -38,4 +38,8 @@ Your application will be available on port 8000 (http://localhost:8000)
 
 ### Versions
 
-| Release | Ubuntu Version | PHP Version | Node Version |
+|   | Release / Tag Name | Ubuntu Version | PHP Version | Node Version |
+| - | ------------------ | -------------- | ----------- | ------------ |
+| latest| `focal-p81n18` | 20.04 (Focal) | 8.1 | 18 |
+|   | `jammy-p81n18` | 22.04 (Jammy) | 8.1 | 18 |
+
