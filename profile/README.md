@@ -36,19 +36,6 @@ $ docker-compose up -d
 
 Your application will be available on port 8000 (http://localhost:8000)
 
-### Documentation
+### Versions
 
-
-
-#### Restart Service(s)
-
-```
-$ sv restart php-fpm
-```
-
-#### Enable/Disable XDebug
-
-```
-$ xdebug-enable
-$ xdebug-disable
-```
+| Release | Ubuntu Version | PHP Version | Node Version |
