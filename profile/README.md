@@ -17,7 +17,7 @@ version: '3.7'
 services:
 
   web:
-    image: elephantbox/elephantbox:latest
+    image: elephantbox/elephantbox:jammy-p82n19-latest
     command: run-services nginx,php-fpm
     environment:
       APP_NAME: my-project-name
@@ -38,8 +38,8 @@ Your application will be available on port 8000 (http://localhost:8000)
 
 ### Versions
 
-|   | Release / Tag Name | Ubuntu Version | PHP Version | Node Version |
-| - | ------------------ | -------------- | ----------- | ------------ |
-| latest| `focal-p81n18` | 20.04 (Focal) | 8.1 | 18 |
-|   | `jammy-p81n18` | 22.04 (Jammy) | 8.1 | 18 |
-
+| Image Name | Latest Version | Ubuntu Version | PHP Version | Node Version |
+| --------------------------------------------- | ---------------------- | ------------- | --- | -- |
+| `elephantbox/elephantbox:jammy-p82n19-latest` | `jammy-p82n19-22.12.1` | 22.04 (Jammy) | 8.2 | 19 |
+| `elephantbox/elephantbox:jammy-p81n18-latest` | `jammy-p81n18-22.12.1` | 22.04 (Jammy) | 8.1 | 18 |
+| `elephantbox/elephantbox:focal-p81n18-latest` | `focal-p81n18-22.12.1` | 20.04 (Focal) | 8.1 | 18 |
